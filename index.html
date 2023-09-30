@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tip calculator app</title>
+  </head>
+
+  <body>
+    <!--Heading-->
+    <div class="heading">
+      <h1>SPLI</h1>
+      <h1>TTER</h1>
+    </div>
+
+    <div class="container">
+      <!--left side-->
+      <div class="item">
+        <!--Bill-->
+        <section class="small-sec">
+          <p class="subheading">Bill</p>
+          <input type="text" id="Bill" placeholder="0" />
+        </section>
+        <!--Tips-->
+        <section class="small-sec">
+          <p class="subheading">Select Tip %</p>
+          <div>
+            <!--5 buttons 1 text input(custom)-->
+            <div class="small-container">
+              <input type="button" value="5%" id="5" class="tip-box" />
+              <input type="button" value="10%" id="10" class="tip-box" />
+              <input type="button" value="15%" id="15" class="tip-box" />
+            </div>
+            <div class="small-container">
+              <input type="button" value="25%" id="25" class="tip-box" />
+              <input type="button" value="50%" id="50" class="tip-box" />
+              <input
+                type="text"
+                placeholder="Custom%"
+                class="tip-box"
+                id="custom"
+              />
+            </div>
+          </div>
+        </section>
+        <!--Number of People-->
+        <section class="small-sec">
+          <p class="subheading">Number of People</p>
+          <input type="text" id="People" placeholder="0" />
+        </section>
+      </div>
+
+      <!--right side-->
+      <div class="item dark-bg">
+        <!--Tip amount-->
+        <section class="small-sec same-line">
+          <div>
+            <p>Tip Amount</p>
+            <p class="regular">/ person</p>
+          </div>
+          <div>
+            <p class="result" id="tip-amount">$0.00</p>
+          </div>
+        </section>
+        <!--Total-->
+        <section class="small-sec same-line">
+          <div>
+            <p>Total</p>
+            <p class="regular">/ person</p>
+          </div>
+          <div>
+            <p class="result" id="total-amount">$0.00</p>
+          </div>
+        </section>
+        <!--Reset Button-->
+        <section class="bottom">
+          <input type="button" value="RESET" id="Reset" />
+        </section>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by Tanakit Phaopin.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

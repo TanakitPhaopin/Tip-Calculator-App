@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&family=Roboto&family=Space+Mono:wght@700&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  /*Body*/
+  body {
+    background-color: #E4F1FF;
+    font-family: 'Space Mono';
+  }
+
+  /*Heading*/
+  .heading {
+    text-align: center;
+    color: #9400FF;
+  }
+
+   /*Subheadings*/
+   .subheading {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-family: 'Space Mono';
+    font-size: 16px;
+    color: #9400FF;
+  }
+
+  .regular {
+    font-size: 14px;
+  }
+
+  p{
+    color: white;
+    margin: 0;
+  }
+
+  p.result {
+    font-size: 30px;
+  }
+
+  /*Calculator container*/
+  .container {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  /*Items with calculator*/
+  .item {
+    padding:3% 5% 3% 5%;
+    width: 50%;
+  }
+
+  .dark-bg {
+    background-color: #27005D;
+    border-radius: 5%;
+    margin: 20px;
+  }
+
+  /*Small section*/
+  .small-sec {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*Tip box*/
+  .small-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .tip-box {
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-size: 20px;
+    color: white;
+    background-color: #27005D;
+    border-color: #27005D;
+    border-radius: 10%;
+    border-width: 0 ;
+  }
+
+  input[type="button"]:hover {
+    background-color: rgb(229, 145, 34);
+    transition: .3s;
+    cursor: pointer;
+  }
+
+  /*Input text box*/
+  #Bill,
+  #People {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #E4F1FF;
+    border-width: 0 ;
+    padding: 10px 5px 10px 5px;
+    font-family: 'Space Mono';
+    font-size: 16px;
+  }
+
+  #Custom-tip {
+    background-color: #E4F1FF;
+  }
+
+  /*Placeholder*/
+  ::placeholder {
+    color: #AED2FF;
+  }
+
+  #Bill::placeholder {
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  #People::placeholder {
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  /*Result*/
+  .same-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  /*Reset Button*/
+  #Reset {
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+  } 
+
+  .bottom {
+    margin-top: 50%;
+    text-align: center;
+  }
+
+  /*Attribute*/
+  .attribution {
+    margin-top: 10px;
+  }
